@@ -1,18 +1,35 @@
+
+.PALHETA{
+color: 
+#d5a021
+#334752
+#1f5673
+#f2efe9
+#E85F5C
+#DF803F
+#DA9030
+}
+
 h1{
     color: blue;
 }
 
-.masculino{
-    
-}
-.z_simbol{
-    
-}
+.menuItem{
 
-.menu_item{
-    padding-left: 600px;
-    color: white;
+    font-family: "Arial Rounded MT";
+    font-size: 10px;
 }
 ul{
    margin: 5px; 
 }
+a{
+    color: white;
+    
+}
+.custom-navbar {
+    background-color: #334752; /* Substitua pelo código da cor desejada */
+  }
+
+  .no-transition .dropdown-menu {
+    transition: none; /* Desativa a transição de animação */
+  }
