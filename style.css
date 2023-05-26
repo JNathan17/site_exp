@@ -23,9 +23,29 @@ ul{
    margin: 5px; 
 }
 a{
-    color: white;
-    
+    color: white;    
 }
+
+#mostrar{
+    display: none;
+   
+}
+
+#masculino:hover #mostrar{
+    display: block;
+
+}
+
+#feminino:hover #mostrar{
+    display: block;
+
+}
+
+#infantil:hover #mostrar{/*teste*/
+    display: block;
+
+}
+
 .custom-navbar {
     background-color: #334752; /* Substitua pelo código da cor desejada */
   }
